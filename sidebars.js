@@ -146,6 +146,20 @@ const sidebars = {
           ]
         }
       ]
+    },
+    {
+      type: 'category',
+      label: 'Frontend',
+      link: {
+        type: 'doc',
+        id: 'front-end/README',
+      },
+      items: [
+        {
+          type: 'doc',
+          id: 'front-end/widget/README'
+        },
+      ]
     }
   ]
 };
