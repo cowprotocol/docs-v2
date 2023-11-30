@@ -20,6 +20,6 @@ const orderBookApi = new OrderBookApi({ chainId: SupportedChainId.MAINNET });
 const orderId = await orderBookApi.sendOrder({ ...order, ...signedOrder });
 ```
 
-Success 🎉! You managed to post a new valid order. Note that even though you awaited for the `sendOrder` call, this only signals that the order was accepted by the protocol.\
-\
+Success 🎉!  
+You managed to post a new valid order. Note that even though you awaited for the `sendOrder` call, this only signals that the order was accepted by the protocol. 
 As a bonus, next section will show you how to view the estate of the order in the explorer.
